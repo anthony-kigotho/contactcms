@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact CMS</title>
+</head>
+<body>
+    <select name="contacts" id="contacts">
+    </select>
+    <form action="">
+        <label for="name">User Name: </label>
+        <input type="text" id="name">
+        <label for="email">User Email: </label>
+        <input type="email" id="email">
+        <label for="phone">Phone number: </label>
+        <input type="text" id="phone">
+        <div class="form-container">
+            <input type="submit" id="add" value="Add">
+            <input type="submit" id="update" value="Update">
+            <input type="submit" id="delete" value="Delete Contact" style="background: red;">
+        </div>
+    </form>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="contact.js"></script>
+</body>
+</html>
